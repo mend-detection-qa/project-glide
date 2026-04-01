@@ -1,0 +1,14 @@
+# glide.yaml — Glide manifest file
+# This is the human-editable file where you declare your dependencies.
+# Run `glide install` to fetch all dependencies into the vendor/ directory.
+# Run `glide update`  to resolve newest versions and regenerate glide.lock.
+
+# package is the GOPATH-style import path for this project.
+package: github.com/example/myapp
+
+# import lists all direct dependencies.
+import:
+  # - package: the import path of the dependency
+  #   version: a git tag, branch, or commit SHA to pin to
+  - package: github.com/fatih/color
+    version: v1.7.0
